@@ -16,18 +16,4 @@ class Knapsack_Sample:
             lst.append(f"{i[0]} {i[1]}")
         return lst
 
-test_mode = False
-if __name__ == "__main__":
-    if test_mode:
-        weight_of_knapsack = 10
-        size_of_items = 140
-        min_weight = 1
-        max_weight = 10
-        min_value = 10
-        max_value = 50
-    else:
-            exit()
-    weight = (min_weight , max_weight)
-    value = (min_value , max_value)
 
-    make_sample(weight, value, size_of_items,weight_of_knapsack)
